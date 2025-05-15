@@ -19,5 +19,10 @@ class AppRoutes {
       page: () => HomeScreen(),
       bindings: [binding()],
     ),
+    GetPage(
+      name: Homescreen,
+      page: () => HomeScreen(),
+      bindings: [binding()],
+    ),
   ];
 }
